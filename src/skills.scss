@@ -1,0 +1,54 @@
+.skills {
+  margin-top: 10%;
+  color: #555555;
+  opacity: 0.9;
+  background-image: linear-gradient(
+    to left bottom,
+    #c6f9ff,
+    #d8f9ff,
+    #eafaff,
+    #f8fbff,
+    #ffffff
+  );
+  padding-top: 5%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  width: 100%;
+  border-radius: 30px;
+  .parent {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 2%;
+    inline-size: 100%;
+    grid-template-areas:
+      "one two three four five"
+      "a b c d e";
+  }
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+  }
+  .year {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    position: fixed;
+    left: 15px;
+    top: 290px;
+    opacity: 0.4;
+  }
+  .skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    position: fixed;
+    left: 15px;
+    top: 170px;
+    opacity: 0.5;
+  }
+}

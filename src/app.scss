@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to left top,
+    #fceffa,
+    #fbf3fc,
+    #fbf7fe,
+    #fdfbff,
+    #ffffff
+  );
+  background-repeat: no-repeat;
+}
+
+.app {
+  div.image {
+    width: 100%; /*width of your image*/
+    height: 100%; /*height of your image*/
+    background-image: url("./abstract.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0; /* If you want no margin */
+    padding: 0; /*if your want to padding */
+    position: absolute;
+    opacity: 0.4;
+    bottom: 350px;
+  }
+
+  font-family: "Oxygen";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
